@@ -35,3 +35,10 @@ store in default.json
     Add the options suggested options to the connectDB
     function inside of config/db.js
 
+
+Need to give user jwt:
+(https://github.com/auth0/node-jsonwebtoken)
+find info at (https://jwt.io/)
+
+
+

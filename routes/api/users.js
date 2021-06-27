@@ -4,7 +4,8 @@ const express = require("express");
 const router = express.Router();
 // const gravatar = require("gravatar");
 const bcrypt = require("bcryptjs");
-// const jwt = require("jsonwebtoken");
+const jwt = require("jsonwebtoken");
+// bringing in jwt token
 const config = require("config");
 const { check, validationResult } = require("express-validator");
 
@@ -51,15 +52,18 @@ router.post(
 
       await user.save();
 
+      // jwt -----------
       const payload = {
         user: {
           id: user.id,
         },
       };
-
+      // pass in config
       jwt.sign(
         payload,
         config.get("jwtSecret"),
+        // before deploy need to change back
+        // to 3600
         { expiresIn: 360000 },
         (err, token) => {
           if (err) throw err;
