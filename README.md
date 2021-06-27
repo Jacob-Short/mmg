@@ -5,37 +5,37 @@ __Authors__= Jacob Short, Bethany Folino
 (MERN Stack)
 
 
-Environment & Setup:
+### Environment & Setup:
 
 Node.js - (https://nodejs.org/en/)
 Postman - Test our API (https://www.postman.com/)
 
-Developer Tools:
+### Developer Tools:
 React Dev Tools -(https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 Redux Devtools - (https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
 
 
 
-Created NOSQL Data Base with MongoDB.
+### Created NOSQL Data Base with MongoDB.
 Document database very similar to json objects.
 Easy to manage, no installs. 
 Cross-compatable.
 
 
-MongoDB Atlas - (https://www.mongodb.com/cloud/atlas)
+### MongoDB Atlas - (https://www.mongodb.com/cloud/atlas)
 Created cluster using AWS and Oregon Region.
 (512 MB 'development environment')
 
-Collections => Tables
+### Collections => Tables
 Using mongoose to interact with our DB
 
-Config:
+### Config:
 Can create global values within our application and will 
 store in default.json
 
-** If get 'DeprecationWarning': 
+** If get 'DeprecationWarning': **
     Add the options suggested options to the connectDB
-    function inside of config/db.js
+    function inside of config/db.js 
 
 Each users password will be enrypted by salting and 
 hashing each password using bcrypt.js
