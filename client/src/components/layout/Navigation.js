@@ -1,18 +1,22 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export const Navigation = () => {
-    return (
-        <nav className="navbar bg-dark">
-        <h1>
-          <a href="index.html"><i className="fas fa-code"></i> MMG</a>
-        </h1>
-        <ul>
-          <li><a href="profiles.html">About</a></li>
-          <li><a href="register.html">Register</a></li>
-          <li><a href="login.html">Login</a></li>
-        </ul>
-      </nav>
-    )
-}
+  return (
+    <nav className="navbar bg-dark">
+      <h1>
+        <Link to="/">
+          <i className="fas fa-code"></i> MMG
+        </Link>
+      </h1>
+      <ul>
+        <Link to='!#'>DataBase</Link>
+        <Link to="/about">About</Link>
+        <Link to="/register">Register</Link>
+        <Link to="/login">Login</Link>
+      </ul>
+    </nav>
+  );
+};
 
 export default Navigation;
