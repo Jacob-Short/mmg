@@ -26,3 +26,11 @@ Create a cluster using AWS and select your region.
 
 Collections => Tables
 Mongoose is how we will be interacting with our DB
+
+Config:
+Can create global values within our application and will 
+store in default.json
+
+** If get 'DeprecationWarning': 
+    Add the options suggested options to the connectDB
+    function inside of config/db.js
