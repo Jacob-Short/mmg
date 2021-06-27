@@ -1,6 +1,8 @@
-# META MOVIES & GAMES
+# Meta Movies & Games
+
+__Authors__= Jacob Short, Bethany Folino
 (React Capstone Project)
-(MERN)
+(MERN Stack)
 
 
 Environment & Setup:
@@ -11,21 +13,19 @@ React Dev Tools -(https://chrome.google.com/webstore/detail/react-developer-tool
 Redux Devtools - (https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
 
 
-Step 1:
-Create NOSQL Data Base with MongoDB.
+
+Created NOSQL Data Base with MongoDB.
 Document database very similar to json objects.
 Easy to manage, no installs. 
 Cross-compatable.
 
 
 MongoDB Atlas - (https://www.mongodb.com/cloud/atlas)
-Create a cluster using AWS and select your region.
-(Free plan with 512 MB 'dev env')
-1. Add user for cluster.
-2. Whitelist IP address
+Created cluster using AWS and Oregon Region.
+(512 MB 'development environment')
 
 Collections => Tables
-Mongoose is how we will be interacting with our DB
+Using mongoose to interact with our DB
 
 Config:
 Can create global values within our application and will 
@@ -35,8 +35,12 @@ store in default.json
     Add the options suggested options to the connectDB
     function inside of config/db.js
 
+Each users password will be enrypted by salting and 
+hashing each password using bcrypt.js
+(https://preview.npmjs.com/package/bcryptjs/v/1.0.1)
 
-Need to give user jwt:
+Each user will recieve a jwt when registering and 
+signing in for access to private pages:
 (https://github.com/auth0/node-jsonwebtoken)
 find info at (https://jwt.io/)
 
