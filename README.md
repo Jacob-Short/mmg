@@ -47,4 +47,8 @@ signing in for access to private pages:
 find info at (https://jwt.io/)
 
 
+Section 5 Post Route:
+Our reviews, need imdbID path
+to make a review
+
 

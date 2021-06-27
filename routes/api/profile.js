@@ -11,9 +11,9 @@ const Profile = require("../../models/Profile");
 const User = require("../../models/User");
 const Reviews = require("../../models/Reviews");
 
-// @route GET api/profile/me
-// @desc Get current users profile
-// @access Private
+// @route   GET api/profile/me
+// @desc    Get current users profile
+// @access  Private
 router.get("/me", auth, async (req, res) => {
   try {
     const profile = await Profile.findOne({
@@ -31,9 +31,9 @@ router.get("/me", auth, async (req, res) => {
   }
 });
 
-// @route POST api/profile
-// @desc Create or update user profile
-// @access Public
+// @route   POST api/profile
+// @desc    Create or update user profile
+// @access  Public
 
 router.post(
   "/",
@@ -93,8 +93,8 @@ router.post(
   }
 );
 
-// @route GET api/profile
-// @desc  Get all profiles
+// @route  GET api/profile
+// @desc   Get all profiles
 // @access Public
 router.get("/", async (req, res) => {
   try {
@@ -106,9 +106,9 @@ router.get("/", async (req, res) => {
   }
 });
 
-// @route  GET api/profile/user/:user_id
-// @desc   Get profile by user ID
-// @access Public
+// @route   GET api/profile/user/:user_id
+// @desc    Get profile by user ID
+// @access  Public
 router.get("/user/:user_id", async (req, res) => {
   try {
     const profile = await Profile.findOne({
