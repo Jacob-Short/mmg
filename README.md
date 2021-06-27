@@ -6,8 +6,10 @@ __Authors__= Jacob Short, Bethany Folino
 
 
 Environment & Setup:
+
 Node.js - (https://nodejs.org/en/)
 Postman - Test our API (https://www.postman.com/)
+
 Developer Tools:
 React Dev Tools -(https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 Redux Devtools - (https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
