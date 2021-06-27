@@ -51,7 +51,5 @@ Section 5 Post Route:
 Our reviews, need imdbID path
 to make a review
 
-load user and set auth token
-section 8 # 41
-
-
+Profile Reducer & Get current profile
+45 9
