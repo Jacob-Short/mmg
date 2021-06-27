@@ -51,4 +51,7 @@ Section 5 Post Route:
 Our reviews, need imdbID path
 to make a review
 
+React router setup on front end:
+    sec 6 # 33
+
 
