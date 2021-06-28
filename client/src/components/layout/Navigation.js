@@ -12,6 +12,11 @@ export const Navigation = ({ auth: { isAuthenticated, loading }, logout }) => {
           <i className='fas fa-sign-out-alt'></i>{' '}<span className='hide-sm'>Logout</span></a>
       </li>
       <li>
+      <Link to="/home">
+      <i className='fas fa-user'></i>{' '}
+      <span className='hide-sm'>Home</span></Link>
+      </li>
+      <li>
         <Link to="/about">About</Link>
       </li>
     </ul>

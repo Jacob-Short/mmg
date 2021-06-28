@@ -1,7 +1,6 @@
 # Meta Movies & Games
 
 __Authors__= Jacob Short, Bethany Folino
-(React Capstone Project)
 (MERN Stack)
 
 
@@ -51,5 +50,5 @@ Section 5 Post Route:
 Our reviews, need imdbID path
 to make a review
 
-Profile Reducer & Get current profile
-45 9
+Section 10 - 53
+Finish profile acions & reducer
