@@ -15,7 +15,7 @@ export const Landing = ({ isAuthenticated }) => {
             <h1 className="x-large">Meta Movies & Games</h1>
             <p className="lead">
               Create a profile, search for your top movies, TV Shows, and Games,
-            leaves comments andshare posts with your friends and family!
+            leaves comments and share posts with your friends and family!
             </p>
             <div className="buttons">
               <Link to="/register" className="btn btn-primary">Sign Up</Link>

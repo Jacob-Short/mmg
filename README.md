@@ -1,6 +1,8 @@
 # Meta Movies & Games
 
 __Authors__= Jacob Short, Bethany Folino
+
+# Full Stack Application utilizing MongoDB as our database, Node and Express to construct our backend, and React as our IU. 
 (MERN Stack)
 
 
@@ -52,3 +54,6 @@ to make a review
 
 Section 10 - 53
 Finish profile acions & reducer
+
+__References__=
+https://www.udemy.com/course/mern-stack-front-to-back/
