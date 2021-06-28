@@ -2,7 +2,7 @@
 
 __Authors__= Jacob Short, Bethany Folino
 
-### Full Stack Application utilizing MongoDB as our database, Node and Express to construct our backend, and React as our IU. 
+### Full Stack Application utilizing MongoDB as our database, Node and Express to construct our backend, and React as our UI. 
 (MERN Stack)
 
 
